@@ -1,3 +1,6 @@
+%comentario%
+%dadas dos listas A,B se quiere saber la diferencia simetrica entre%
+%las dos listas (A-B)U(B-A) o (AUB)-(A intersectada con B)%
 difSimetrica(A,B,R):-dif(A,B,R1),dif(B,A,R2),append(R1,R2,R).
 
 dif([],_,[]):-!.
